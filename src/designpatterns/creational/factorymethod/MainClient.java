@@ -4,10 +4,16 @@ import designpatterns.creational.factorymethod.creator.AirLogisticsFactory;
 import designpatterns.creational.factorymethod.creator.LandLogisticsFactory;
 import designpatterns.creational.factorymethod.creator.LogisticsFactory;
 
-/*
- *  When to use:
+/*  Intent:  Factory Method is a creational design pattern that 
+ * 			 provides an interface for creating objects in a superclass, 
+ * 			 but allows subclasses to alter the type of objects that will be created.  
+ * 
+ *  Applicability:
  *  		 If your object creation process is complex or varies under different conditions, 
  *  		 using a factory method can make your client code simpler and promote reusability.
+ *  
+ *  		 Use the Factory Method when you don’t know beforehand the exact types 
+ *  		 and dependencies of the objects your code should work with.
  * 
  * 	Creator: This is an abstract class or an interface that declares the factory method. 
  * 			 The creator typically contains a method that serves as a factory for creating objects. 
