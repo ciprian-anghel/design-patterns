@@ -8,6 +8,9 @@ import designpatterns.behavioral.adapter.square.SquarePiece;
 //as round pegs.
 
 // From SquarePiece to RoundPiece
+
+//Extends the target object (since you need its methods)
+//and wraps the source object that needs to be 'adapted'
 public class SquarePieceAdapter extends RoundPiece {
 
 	private SquarePiece squarePiece;
