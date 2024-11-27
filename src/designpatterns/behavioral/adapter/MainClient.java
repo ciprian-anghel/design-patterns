@@ -6,6 +6,8 @@ import designpatterns.behavioral.adapter.round.RoundPiece;
 import designpatterns.behavioral.adapter.square.SquarePiece;
 
 /*
+ * Also known as: WRAPPER
+ *
  * Intent:	
  * 		Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate.
  * 		Fits square piece into round hole.
