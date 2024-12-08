@@ -1,7 +1,7 @@
-package headfirst.designpatterns.chapter1.ducks;
+package headfirst.designpatterns.behavioral.strategy.ducks;
 
-import headfirst.designpatterns.chapter1.behaviours.fly.FlyBehaviour;
-import headfirst.designpatterns.chapter1.behaviours.quack.QuackBehaviour;
+import headfirst.designpatterns.behavioral.strategy.behaviours.fly.FlyBehaviour;
+import headfirst.designpatterns.behavioral.strategy.behaviours.quack.QuackBehaviour;
 
 public abstract class Duck {
 	

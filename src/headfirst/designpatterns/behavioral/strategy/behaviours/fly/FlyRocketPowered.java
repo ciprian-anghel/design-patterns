@@ -1,4 +1,4 @@
-package headfirst.designpatterns.chapter1.behaviours.fly;
+package headfirst.designpatterns.behavioral.strategy.behaviours.fly;
 
 public class FlyRocketPowered implements FlyBehaviour {
 
