@@ -1,10 +1,10 @@
-package myexamples.creational.abstractfactory;
+package extra.creational.abstractfactory;
 
-import myexamples.creational.abstractfactory.carspecs.Traction;
-import myexamples.creational.abstractfactory.carspecs.Wheels;
-import myexamples.creational.abstractfactory.factory.BusFactory;
-import myexamples.creational.abstractfactory.factory.CarFactory;
-import myexamples.creational.abstractfactory.factory.ForestTruckFactory;
+import extra.creational.abstractfactory.carspecs.Traction;
+import extra.creational.abstractfactory.carspecs.Wheels;
+import extra.creational.abstractfactory.factory.BusFactory;
+import extra.creational.abstractfactory.factory.CarFactory;
+import extra.creational.abstractfactory.factory.ForestTruckFactory;
 
 public class SalesShop {
 	public static void main(String[] args) {

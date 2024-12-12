@@ -1,4 +1,4 @@
-package myexamples.creational.abstractfactory.carspecs;
+package extra.creational.abstractfactory.carspecs;
 
 public class BusWheels extends Wheels {
 
