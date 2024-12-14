@@ -25,4 +25,9 @@ class DCPizza implements Pizza
 - The "Dependency Inversion" means that the relationship is reversed in terms of control. The high-level does not depend on the concrete low-level, but the low-level concrete depends on abstraction. Both high-level and low-level now depends on the same abstraction.
 
 ## 7. Principle of Least Knowledge - talk only to your immediate friends.
+### Example - take any object - we should only invoke methods that belong to:
+- The object itself
+- Objects passed in as a parameter to the method
+- Any object the method creates or instantiates
+- Any components of the object
 
