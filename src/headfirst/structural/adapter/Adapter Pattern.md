@@ -1,4 +1,4 @@
-# Decorator pattern
+# Adapter pattern
 ### The `Adapter Pattern` converts the interface of a class into another interface the client expects. Adapter lets classes work together that couldn'd otherwise because of incompatible type.
 
 - Adapter class implements the interface it adapts to, which expets to be used.

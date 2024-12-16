@@ -1,5 +1,5 @@
 # Factory Method pattern
-### The Factory Method pattern defines an interface for creating an object, but lets subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to sublcasses.
+### The `Factory Method` pattern defines an interface for creating an object, but lets subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to sublcasses.
 - Encapsulates the instantiations of concrete types.
 - Factory Method lets subclasses decide which class to instantiate.
 
