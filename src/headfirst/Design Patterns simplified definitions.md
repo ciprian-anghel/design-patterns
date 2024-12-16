@@ -11,6 +11,6 @@
 ### Iterator
 ### Composite
 ### State
-### Proxy     
+### Proxy
 
 ### Compound patterns - Combine two or more patterns
