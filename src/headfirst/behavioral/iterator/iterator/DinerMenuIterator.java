@@ -4,8 +4,8 @@ import headfirst.behavioral.iterator.menu.MenuItem;
 
 public class DinerMenuIterator implements Iterator {
 	
-	MenuItem[] items;
-	int position = 0;
+	private MenuItem[] items;
+	private int position = 0;
 	
 	public DinerMenuIterator(MenuItem[] items) {
 		this.items = items;

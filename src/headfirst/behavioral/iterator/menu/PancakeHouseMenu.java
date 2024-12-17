@@ -2,6 +2,9 @@ package headfirst.behavioral.iterator.menu;
 
 import java.util.ArrayList;
 
+import headfirst.behavioral.iterator.iterator.Iterator;
+import headfirst.behavioral.iterator.iterator.PancakeHouseMenuIterator;
+
 public class PancakeHouseMenu {
 	
 	ArrayList<MenuItem> menuItems;
@@ -18,6 +21,10 @@ public class PancakeHouseMenu {
 	public void addItem(String name, String description, boolean vegetarian, double price) {
 		MenuItem menuItem = new MenuItem(name, description, vegetarian, price);
 		menuItems.add(menuItem);
+	}
+	
+	public Iterator createIterator() {
+		return new PancakeHouseMenuIterator(menuItems);
 	}
 	
 }

@@ -31,3 +31,4 @@ class DCPizza implements Pizza
 - Any object the method creates or instantiates
 - Any components of the object
 
+### 8. A class should have only one reason to change.
