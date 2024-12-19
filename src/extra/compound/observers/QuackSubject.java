@@ -19,11 +19,7 @@ public class QuackSubject implements Subject {
 
 	@Override
 	public void notifyObservers() {
-		Iterator<Observer> iterator = observers.iterator();
-		while(iterator.hasNext()) {
-			Observer observer = iterator.next();
-			observer.update(duck);
-		}
+		observers.forEach(o -> o.update(duck));
 	}
 
 }
