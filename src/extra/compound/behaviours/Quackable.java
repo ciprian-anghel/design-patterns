@@ -1,6 +1,6 @@
 package extra.compound.behaviours;
 
-import extra.compound.observers.Subject;
+import extra.compound.observer.Subject;
 
 public interface Quackable extends Subject {
 

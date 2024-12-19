@@ -1,4 +1,4 @@
-package extra.compound.observers;
+package extra.compound.observer;
 
 public interface Observer {
 

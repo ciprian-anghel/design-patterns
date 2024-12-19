@@ -1,14 +1,16 @@
-package extra.compound.observers;
+package extra.compound.observer;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
-public class QuackSubject implements Subject {
-	
+/*
+ * Each individual duck is watched by observers.
+ */
+public class QuackerSubject implements Subject {
+
 	private ArrayList<Observer> observers = new ArrayList<>();
-	private Subject duck;
+	private Subject duck; 
 	
-	public QuackSubject(Subject duck) {
+	public QuackerSubject(Subject duck) {
 		this.duck = duck;
 	}
 
@@ -21,5 +23,5 @@ public class QuackSubject implements Subject {
 	public void notifyObservers() {
 		observers.forEach(o -> o.update(duck));
 	}
-
+	
 }

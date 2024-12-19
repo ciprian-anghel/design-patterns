@@ -1,15 +1,16 @@
 package extra.compound.ducks;
 
 import extra.compound.behaviours.Quackable;
-import extra.compound.observers.QuackSubject;
-import extra.compound.observers.Observer;
+import extra.compound.observer.Observer;
+import extra.compound.observer.QuackerSubject;
+import extra.compound.observer.Subject;
 
 public class RedheadDuck implements Quackable {
 
-	private QuackSubject subject;
+	private Subject subject;
 	
 	public RedheadDuck() {
-		this.subject = new QuackSubject(this);
+		subject = new QuackerSubject(this);
 	}
 	
 	@Override
@@ -20,7 +21,7 @@ public class RedheadDuck implements Quackable {
 
 	@Override
 	public void addObserver(Observer observer) {
-		subject.addObserver(observer);		
+		subject.addObserver(observer);
 	}
 
 	@Override

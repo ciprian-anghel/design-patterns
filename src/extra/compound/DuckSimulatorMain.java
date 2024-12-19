@@ -7,7 +7,7 @@ import extra.compound.decorators.QuackCounter;
 import extra.compound.factories.AbstractDuckFactory;
 import extra.compound.factories.CountingDuckFactory;
 import extra.compound.geese.Goose;
-import extra.compound.observers.QuackologistObserver;
+import extra.compound.observer.QuackologistObserver;
 
 public class DuckSimulatorMain {
 

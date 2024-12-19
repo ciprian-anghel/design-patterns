@@ -1,7 +1,7 @@
 package extra.compound.decorators;
 
 import extra.compound.behaviours.Quackable;
-import extra.compound.observers.Observer;
+import extra.compound.observer.Observer;
 
 public class QuackCounter implements Quackable {
 
@@ -31,5 +31,5 @@ public class QuackCounter implements Quackable {
 	public void notifyObservers() {
 		duck.notifyObservers();
 	}
-	
+
 }
