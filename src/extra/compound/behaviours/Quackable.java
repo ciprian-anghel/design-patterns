@@ -1,6 +1,8 @@
 package extra.compound.behaviours;
 
-public interface Quackable {
+import extra.compound.observers.Subject;
+
+public interface Quackable extends Subject {
 
 	public void quack();
 	

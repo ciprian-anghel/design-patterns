@@ -7,8 +7,7 @@ import extra.compound.decorators.QuackCounter;
 import extra.compound.factories.AbstractDuckFactory;
 import extra.compound.factories.CountingDuckFactory;
 import extra.compound.geese.Goose;
-
-//page 524
+import extra.compound.observers.QuackologistObserver;
 
 public class DuckSimulatorMain {
 
@@ -47,6 +46,11 @@ public class DuckSimulatorMain {
 		
 		System.out.println("\nDuck Simulator: Mallard Flock Simulator");
 		simulate(flockOfMallards);
+		
+		System.out.println("\nDuck Simulator: With Observer");
+		QuackologistObserver quackologist = new QuackologistObserver();
+		flockOfDucks.addObserver(quackologist);
+		simulate(flockOfDucks);
 		
 		System.out.println("\nThe ducks quacked " + QuackCounter.getNumberOfQuacks() + " times.");
 	}

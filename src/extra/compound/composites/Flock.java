@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 import extra.compound.behaviours.Quackable;
+import extra.compound.observers.Observer;
 
 public class Flock implements Quackable {
 
@@ -20,6 +21,16 @@ public class Flock implements Quackable {
 			Quackable quacker = iterator.next();
 			quacker.quack();
 		}
+	}
+
+	@Override
+	public void addObserver(Observer observer) {
+		quackers.stream().forEach(quacker -> quacker.addObserver(observer));
+	}
+
+	@Override
+	public void notifyObservers() {
+		//already done in the quack(). See quacker.quack()
 	}
 	
 }	
